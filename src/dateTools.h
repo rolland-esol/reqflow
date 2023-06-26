@@ -16,6 +16,7 @@
 #define _dateTools_h
 
 #include <string>
+#include <ctime>
 
 std::string epochToString(time_t t);
 std::string epochToStringDelta(time_t t);
